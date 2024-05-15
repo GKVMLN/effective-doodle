@@ -2,6 +2,7 @@
 
 ## Задача проекта 
 Построение модели прогнозирования оттока клиентов 
+
 ## Результаты 
 recall: 0.99 | 0.11
 
@@ -13,11 +14,9 @@ f1_score: 0.91 | 0.18
 Двое из трех датасетов, хранят данные клиентов пришедших через рассылку, дата рассылки отсутствует. 
 По итогу модель более успешно предсказывает отрицательные результаты, чем положительные.
 
-## Навыки и инструменты
-- numpy
-- pandas
-- seaborn
-- matplotlib
-- sklearn
-- seasonal_decompose
+## Стэк
+numpy, pandas, hashlib, seaborn, matplotlib, phik, sklearn, seasonal_decompose, GradientBoostingClassifier, CatBoostClassifier
+
+## Статус
+Завершен
   
